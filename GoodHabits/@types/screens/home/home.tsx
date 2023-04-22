@@ -2,11 +2,15 @@ import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { Text, Image, View, TouchableOpacity } from "react-native";
 
-export default function Home() {
+export default function Home({ navigation }) {
+  function goToLogin() {
+    navigation.navigate("Login");
+  }
+
   return (
     <View className="bg-orange-50 flex-1 items-center justify-center flex-col ">
       <View className="flex-grow items-center justify-center">
-        <Text className="font-bold  text-orange-700 text-5xl mt-9">
+        <Text className="font-bold  text-red-700 text-5xl mt-9 ">
           Good Habits
         </Text>
         <StatusBar style="auto" />
@@ -48,7 +52,10 @@ export default function Home() {
         </View>
       </View>
       <View className="items-center flex-grow justify-center">
-        <TouchableOpacity className=" bg-orange-600 rounded-lg w-56 flex items-center justify-center h-12 mt-2">
+        <TouchableOpacity
+          className=" bg-red-600 rounded-lg w-64 flex items-center justify-center h-12 mt-2"
+          onPress={goToLogin}
+        >
           <Text className=" text-lg text-orange-50">Continuar</Text>
         </TouchableOpacity>
       </View>
