@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "731495890334",
+    "project_id": "goodhabits-bda59",
+    "storage_bucket": "goodhabits-bda59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731495890334:android:50b9b07eb0695afec9aa8f",
+        "android_client_info": {
+          "package_name": "com.anonymous.GoodHabits"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "731495890334-c1qu6sg1i3hbv4i1k7tmh3ni63lps829.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anonymous.GoodHabits",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "731495890334-4apeqc3e516mkv3e7f65lv3lothtkajm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUdO30zAcZcsVnAgHn_b4kXFKCdAbvApE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "731495890334-4apeqc3e516mkv3e7f65lv3lothtkajm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
